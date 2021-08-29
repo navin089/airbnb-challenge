@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    
+    .hide-sb{
+      overflow-x: scroll;
+    }
+
+    .hide-sb::-webkit-scrollbar {
+      display: none;
+    }
+  }
